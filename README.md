@@ -3,7 +3,13 @@ Lambda_Function_rails_mysql_gems_for_ruby2.7.0 は AWS Lambda カスタムラン
 Mysql利用Rails6.0.2.2 の Lambda functionテンプレートです。
 
 # TODO
+下記エラー調査中
+```
+require 'psych' 
+```
+```
   "errorMessage": "libyaml-0.so.2: cannot open shared object file: No such file or directory - /opt/ruby/lib/ruby/2.7.0/x86_64-linux/psych.so",
+```
 
 
 # AWS Lambda デプロイ手順
